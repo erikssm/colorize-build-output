@@ -10,5 +10,5 @@ Add these lines to ~/.bashrc:
 - export col_bold_red="$(printf '\033[0;1;31m')"
 
 Few tests:
-- echo "test error in console build output" | sed -e "s/error/${col_bold_red}&${col_normal}/g" 
-- echo "test warning in console build output" | sed -e "s/warning/${col_bold_yellow}&${col_normal}/g" 
+- echo "test error in console build output" | sed -e "s/error/${col_bold_red}&${col_normal}/Ig" 
+- echo "test warning in console build output" | sed -e "s/warning/${col_bold_yellow}&${col_normal}/Ig" 
