@@ -1,5 +1,6 @@
 # colorize-build-output
-quickly find build warnings and errors in console
+
+Quickly find build warnings and errors in those "wall of text" build outputs by applying color to error and warning lines.
 
 Add these lines to ~/.bashrc:
 - export col_normal="$(printf '\033[0m')"
